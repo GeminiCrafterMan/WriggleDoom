@@ -1,0 +1,15 @@
+// =========================================================================================
+// WriggleDoom by Gemini0 - SNDINFO - Player sounds
+// =========================================================================================
+$playersound	wriggle		male	*death		"Sounds/Player/mm-deleted.ogg"
+$playersounddup	wriggle		male	*xdeath		*death
+$playersound	wriggle		male	*gibbed		dsslop
+$playersound	wriggle		male	*pain100	"Sounds/Player/mm-hurt.ogg"
+$playersounddup	wriggle		male	*pain75		*pain100
+$playersounddup	wriggle		male	*pain50		*pain100
+$playersounddup	wriggle		male	*pain25		*pain100
+$playersound	wriggle		male	*grunt		dsoof
+$playersounddup	wriggle		male	*land		*grunt
+$playersound	wriggle		male	*jump		dsjump
+$playersound	wriggle		male	*fist		dspunch
+$playersound	wriggle		male	*usefail	"Sounds/Player/mm-noway.ogg"

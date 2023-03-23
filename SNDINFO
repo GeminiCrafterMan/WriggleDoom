@@ -1,0 +1,25 @@
+// =========================================================================================
+// WriggleDoom by Gemini0 - SNDINFO - Generic things, mostly menu
+// =========================================================================================
+// Menu sounds
+menu/activate		"Sounds/Menus/se_pause.wav"				// activate a new menu
+menu/backup			"Sounds/Menus/se_cancel00.wav"			// backup to previous menu
+menu/prompt			"Sounds/Menus/se_pause.wav"				// activate a prompt "menu" (what)
+menu/cursor			"Sounds/Menus/se_select00.wav"			// move cursor up/down
+menu/change			"Sounds/Menus/se_ok00.wav"				// select new value for option
+menu/invalid		"Sounds/Menus/se_invalid.wav"			// menu not available
+menu/dismiss		"Sounds/Menus/se_cancel00.wav"			// dismiss a prompt message
+menu/choose			"Sounds/Menus/se_ok00.wav"				// choose a menu item
+menu/clear			"Sounds/Menus/se_cancel00.wav"			// close top menu
+menu/pause			"Sounds/Menus/se_pause.wav"				// pause game
+//menu/text			"Sounds/Menus/text.ogg"					// text beep
+
+$limit	menu/activate	0
+$limit	menu/backup		0
+$limit	menu/prompt		0
+$limit	menu/cursor		0
+$limit	menu/change		0
+$limit	menu/invalid	0
+$limit	menu/dismiss	0
+$limit	menu/choose		0
+$limit	menu/clear		0
