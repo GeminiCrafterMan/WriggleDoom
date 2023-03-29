@@ -1,6 +1,6 @@
 gameinfo
 {
-    AddPlayerClasses = "WrigglePlayer"
+    PlayerClasses = "WrigglePlayer"
 	ChatSound = "menu/text"
 	AddEventHandlers = "PauseSoundHandler"
 	ForceTextInMenus = true
